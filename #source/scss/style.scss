@@ -747,7 +747,7 @@ color: #AFAFAF;
 /* Стрелка влево */
 .slick-arrow.slick-prev{
 	right: 20%;
-	&::before {
+	&::before { 
 		content: url('../img/testimony/active-arrow.png');
 		display: inline-block;
 		padding-left: 8px;
