@@ -234,7 +234,7 @@ body {
 		content: '';
 		display: inline-block;
 		margin-right: 8px;
-		background: url(/img/general/preimage.png) 0 0/contain no-repeat;	
+		background: url(../img/general/preimage.png) 0 0/contain no-repeat;	
 		width: 30px;
 		height: 30px;
 	}
@@ -748,7 +748,7 @@ color: #AFAFAF;
 .slick-arrow.slick-prev{
 	right: 20%;
 	&::before {
-		content: url('../../img/testimony/active-arrow.png');
+		content: url('../img/testimony/active-arrow.png');
 		display: inline-block;
 		padding-left: 8px;
 		transform: rotate(180deg);
@@ -758,7 +758,7 @@ color: #AFAFAF;
 .slick-arrow.slick-next{
 	right: 0;
 	&::after {
-		content: url('../../img/testimony/active-arrow.png');
+		content: url('../img/testimony/active-arrow.png');
 		padding-right: 8px;
 		display: inline-block;
 	}
@@ -770,7 +770,7 @@ color: #AFAFAF;
 .slick-prev.slick-arrow.slick-disabled {
 	cursor: default;
 	&::before {
-		content: url('../../img/testimony/dis-arrow.png');
+		content: url('../img/testimony/dis-arrow.png');
 		display: inline-block;
 		transform: rotate(0deg);
 	}
@@ -784,7 +784,7 @@ color: #AFAFAF;
 .slick-next.slick-arrow.slick-disabled {
 	cursor: default;
 	&::after {
-		content: url('../../img/testimony/dis-arrow.png');
+		content: url('../img/testimony/dis-arrow.png');
 		display: inline-block;
 		transform: rotate(180deg);
 	}
