@@ -8,11 +8,6 @@ const signIcon = document.querySelector('.sign-icon')
 burger.addEventListener('click', (event) => {
 	event.preventDefault()
 	toggleMenu()
-	if (menu.contains('visible')) {
-		window.addEventListener('click', event => {
-			toggleMenu()
-		})
-	}
 })
 
 closeAuth.addEventListener('click', () => {
